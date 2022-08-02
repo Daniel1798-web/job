@@ -1,0 +1,28 @@
+
+.dadInform{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    margin-top: 20px;
+}
+
+.childInform{
+    width: 500px;
+    height: 500px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+.textInform{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.textInform h1, h2  {
+    padding: 0;
+    margin: 0;
+}
