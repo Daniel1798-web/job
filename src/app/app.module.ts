@@ -9,6 +9,7 @@ import { InformComponent } from './components/inform/inform.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { JobsListComponent } from './components/jobs-list/jobs-list.component';
 import { EmpleadosComponent } from './components/empleados/empleados.component';
+import { JobCardComponent } from './components/job-card/job-card.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { EmpleadosComponent } from './components/empleados/empleados.component';
     FooterComponent,
     JobsListComponent,
     EmpleadosComponent,
+    JobCardComponent,
   ],
   imports: [
     BrowserModule,

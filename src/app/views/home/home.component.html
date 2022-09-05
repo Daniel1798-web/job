@@ -4,9 +4,8 @@
     <app-header (buscarJob)="buscarJob($event)" (necesitoEm)="buscarEm($event)" (buscarInfo)="buscarInformacion($event)" ></app-header>
 
     <div class="childHome">
-
         <app-inform *ngIf="showInfo"></app-inform>
-        <app-jobs-list *ngIf="showJobs"></app-jobs-list>
+        <app-jobs-list class="job" *ngIf="showJobs"></app-jobs-list>
         <app-empleados *ngIf="showEm"></app-empleados>
     </div>
     <app-footer></app-footer>
